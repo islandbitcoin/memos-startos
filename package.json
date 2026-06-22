@@ -1,0 +1,17 @@
+{
+  "name": "memos-startos",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "ncc build startos/index.ts -o javascript && chmod -R 755 ./javascript",
+    "format": "prettier --write 'startos/**/*.ts'"
+  },
+  "devDependencies": {
+    "@start9labs/start-sdk": "^1.5.3",
+    "@types/node": "^22",
+    "prettier": "^3",
+    "typescript": "^5",
+    "@vercel/ncc": "^0.38"
+  }
+}
