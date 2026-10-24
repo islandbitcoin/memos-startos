@@ -1,13 +1,13 @@
 # Memos
 
 **Memos** is a lightweight, open-source, self-hosted note-taking tool. Think
-of it as a private Twitter for your notes — quick captures, Markdown
+of it as a private Twitter for your notes, with quick captures, Markdown
 formatting, tags, and sharing.
 
 ## Usage
 
 1. Open the **Memos Web UI** interface from the StartOS service page.
-2. Create an account — this is your local Memos identity.
+2. Create an account. This is your local Memos identity.
 3. Start writing! Each memo is timestamped and taggable.
 
 ## Resources
